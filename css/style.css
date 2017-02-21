@@ -1,0 +1,211 @@
+/*Normalize CSS */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Titillium Web', sans-serif;
+}
+h1, h2, h3, h4 {
+	padding: 0;
+	font-weight: bold;
+}
+h2 {
+	font-size: 2.4em;
+}
+h3 {
+	font-size: 1.5em;
+}
+p {
+	font-size: 1.2em;
+	font-weight: 600;
+	padding-bottom: 5px;
+}
+.white-text {
+	color: #fff;
+	text-align: center;
+}
+.space {
+	padding: 55px 0;
+}
+.headline { font-weight: bold; }
+.headline .underline {
+	width: 75px;
+	border-bottom: 2px solid #C8D9E5;
+	margin: 20px auto;
+	display: block;
+}
+.thumbnail {
+	border: none;
+	background-color: transparent;
+}
+
+/* Font awesome customization */
+.fa {
+	vertical-align: middle;
+}
+
+/* Header section */
+.header {
+	padding: 40px 0px;
+	background-color: #87509C;
+}
+.navbar-inverse {
+	background-color: transparent;
+	border-color: transparent;
+}
+.navbar-header a {
+	padding-top: 0;
+	text-decoration: none;
+}
+.navbar-inverse .navbar-nav li a {
+	color: #fff;
+	font-size: 18px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	transition: all 0.4s;
+}
+.navbar-inverse .navbar-nav>.active>a {
+	background-color: #643A79 !important;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.navbar-inverse .navbar-nav li:hover {
+	background-color: #643A79 !important;
+}
+.header-text {
+	font-weight: bold;
+	padding-top: 45px;
+}
+.header-btn {
+	color: #fff;
+	background-color: #EB7D4B;
+	overflow: hidden;
+	border: #EB7D4B;
+	border-radius: 4px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	text-align: center;
+	padding: 8px 35px;
+	font-size: 16px;
+	font-weight: bold;
+	box-shadow: 0px 2px 1px #EB7D4B;
+}
+
+.header-btn:hover {
+	transform: scale(1.1);
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+/* Services Section */
+.services {
+	background-color: #17C2A4;
+}
+.services-text .underline { border-bottom: 2px solid #14A58C; }
+.services-para .thumbnail {
+	background-color: #17C2A4;
+	border: none;
+}
+
+
+
+
+/* Team Section */
+.team {
+	background-color: #E7F1F8;
+	color: #3C4761;
+}
+.team .thumbnail .caption { color: #3C4761 !important; }
+.team .thumbnail .caption .team-roll {
+	color: #48c1e9 !important;
+}
+.team .thumbnail .caption li .icon-round {
+	background-color: #BDD1DF;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	border-radius: 50%;
+}
+
+
+/* Skill Section */
+
+/* Portfolio Section */
+.portfolio {
+	background-color: #ffdd99;
+	color: #393939;
+}
+.portfolio .underline { border-bottom: 2px solid #e5c37f; }
+.list-skills{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.list-skills li a{
+	padding: 6px 15px;
+	background-color: #ebc985;
+	text-transform: uppercase;
+	border-radius: 3px;
+	color: #393939;
+	font-weight: bold;
+}
+.list-skills a:hover{ text-decoration: none;  }
+.list-skills li.active a{ background-color: white;  }
+.btn-loader{
+	background-color: #17c2a4;
+	color: white;
+	box-shadow: 0 2px 1px #14a58c;
+	font-weight: bold;
+	padding: 10px 20px;
+	overflow: hidden;
+}
+.btn-loader:hover {
+	background-color: #17c2a4;
+	color: #fff !important;
+	transform: scale(1.1);
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+
+
+/* Comment Section */
+.comments {
+	background-color: #d74680;
+	color: white;
+} 
+.comments .underline{ border-bottom-color: #b73c6d; }
+.comments .media{ margin-bottom: 80px; }
+.comments .media img { width: 80px; height: 80px; }
+.comments .media .media-body{ padding-left: 35px; }
+.comments .media .media-body .user-name{ font-weight: bold; margin-top: 25px; }
+.comments .media .media-body .user-post{ color: #ffdd99; }
+
+/* Touch section */
+.touch{
+	background-color: #3c5499;
+	color: white;
+} 
+.touch .underline{ border-top-color: #273a71; }
+.touch .form-group .form-control{
+	background-color: #273a71;
+	color: white; border: none;
+}
+.form-group .btn-message {
+	background-color: #30bae7;
+	color: white;
+	border-radius: 3px;
+	box-shadow: 0 3px 0 #299ec5;
+}
+.form-contact .form-group:last-child{ margin-top: 50px; }
+
+/* Footer */
+.footer{ background-color: #344b8e; color: white; padding: 25px 0; }
+.footer .list-inline{ margin: 0 auto; }
+.footer .list-inline li a{ font-size: 1.5em; font-width: bold; color: white; margin-right: 25px; }
+
+.footer .list-inline li a:hover{ text-decoration: none; }
+.footer .list-inline li a.active { color: #30bae7; }
